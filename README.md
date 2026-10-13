@@ -6,6 +6,7 @@ It uses a Seeed Studio XIAO ESP32 S3 acting as a USB Host to read the USB.
 - **Integrated Power:** MT3608 steps up the 3.7V LiPo battery to the 5V (required by the USB).
 ## Enclosure
 Assembly hardware requires M2 x 8mm Socket Head Cap screws. The space under the PBC is meant to for the flat LiPo battery pack.
+Link: https://cad.onshape.com/documents/79600c89bc90443b04a0eccc/w/c9c8aab0a155c9fbc029d97b/e/64e19027fa4e67c0d8740c29
 ## Firmware Setup
 Because the ESP32 S3 must act as a USB host, this project relies on the native ESP32 TinyUSB stack. Currently the firmware DOES NOT work to translate the controller's inputs. The current firmware prints the output data when a button is pressed the reason is that every controller has different mappings so first we need to find that mapping then map it in the firmware only then it will work.
 ### Required Library:
