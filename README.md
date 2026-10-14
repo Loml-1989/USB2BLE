@@ -4,6 +4,12 @@ It uses a Seeed Studio XIAO ESP32 S3 acting as a USB Host to read the USB.
 ## Features
 - **USB Host to Bluetooth Translation:** Intercepts raw USB HID data from a controller and broadcasts it as a standard Bluetooth gamepad to PCs and mobile devices.
 - **Integrated Power:** MT3608 steps up the 3.7V LiPo battery to the 5V (required by the USB).
+## Gallery
+![PCB](assets/pcb.png)
+
+![Schematic](assets/schematic.png)
+
+![Final](assets/case.png)
 ## Enclosure
 Assembly hardware requires M2 x 8mm Socket Head Cap screws. The space under the PBC is meant to for the flat LiPo battery pack.
 Link: https://cad.onshape.com/documents/79600c89bc90443b04a0eccc/w/c9c8aab0a155c9fbc029d97b/e/64e19027fa4e67c0d8740c29
